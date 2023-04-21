@@ -1,0 +1,60 @@
+/*no va dentro de ningun condicional o media querie y es lo que llamamos escritorio primero
+1400 mayor 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100;200;300;400;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anuphan', sans-serif;
+}
+/*---------header---------------------*/
+.header {             
+    background: red;
+    display: flex;
+    flex-direction: column;
+    /*height: 100vh;*/
+}
+/*---------headerNav---------------------*/
+.headerNav{
+    display: flex;
+    background: rgb(98, 0, 255);
+
+    /*width: 100%;*/
+}
+    .contenedorLogo{
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 25%;
+        font-size: 18px;
+    }
+    .contenedorLogo a{
+        width: 100%;
+        
+    }
+    .contenedorLogo img{
+        width: 110%;
+        object-fit: cover;
+    }
+/*---------Fin headerNav---------------------*/
+/*--------- La Conferencia ------------------*/
+.laConferencia{
+
+}
+
+/*---------Fin La Conferencia ------------------*/
+
+
+/*----- fin header-------------------*/
+
+
+
+
+  
