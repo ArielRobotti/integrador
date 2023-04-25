@@ -23,7 +23,7 @@
                     <a href="assets/img/final_front_2023.jpg">
                         <img src="./assets/img/codoacodo.png" alt="Logo">
                     </a>
-                    Conf Bs As
+                    <div>Conf Bs As</div> 
                 
                 </div>
                 <nav class="navegacion">
@@ -32,19 +32,22 @@
                         <li><a class="linkNav" href="#losOradores">Los Oradores</a></li>
                         <li><a class="linkNav" href="#lugarYfecha">Lugar y La Fecha</a></li>
                         <li><a class="linkNav" href="#convierteteEnOrador">Conviertete en Orador</a></li>
-                        <li><a class="linkNav" href="./pages/comprar_tickets.html">Comprar tickets</a></li>
-                    
+                        <li><a class="linkNav comprar" href="./pages/comprar_tickets.html">Comprar tickets</a></li>
                     </ul>
                 
                 </nav>
             </div>  
             <section id ="laConferencia" class="laConferencia ">
                <div class="contenedorTextConf">
-                    <h1>Conferencia Bs As</h1>
-                    <p class="parrafoConferencia">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias soluta voluptatem magnam. Consectetur sit placeat delectus commodi provident labore, vel quam nesciunt? Error unde dignissimos sed! Reiciendis pariatur repellat corrupti!</p>
+                    <h1>Conf Bs As</h1>
+                    <p class="parrafoConferencia">Por primera vez en la Argentina. Un evento donde los expertos que están modelando
+                        el futuro de internet compartirán sus conociminetos y experiencias con nuestra comunidad.
+                        Ven a conocer a los miembros del evento, a otro estudiantes de Codo a Codo y a los oradores de primer nivel
+                        que tenemos para ti. Te esperamos! 
+                    </p>
                     <div>
-                        <a href="#convierteteEnOrador">Quiero ser orador</a>
-                        <a href="./pages/comprar_tickets.html">Comprar tickets</a>
+                        <a class="btn" href="#convierteteEnOrador">Quiero ser orador</a>
+                        <a class = "btn btnComprar" href="./pages/comprar_tickets.html">Comprar tickets</a>
                     </div>
                    
                </div>
@@ -54,18 +57,25 @@
        </header>
        <main>
             <section id="losOradores" class="sectionOradores">
-                <h2 class="tituloRadores"><span>CONOCE A LOS</span> <br> ORADORES</h2>
+                <p  class = "tituloSmall">CONOCE A LOS</p>
+                <h1 class = "tituloLarge">ORADORES</h1>
+                </h2>
                 <div class="padreCards">
                     <div class="card" id="cardUno">
                         <img src="./assets/img/steve.jpg" alt="Steve Jobs">
                         <div class="cardBody">
                             <div class="cardTags">
-                                <h4 class="tituloCardBody">Javascript</h4>
-                                <h4 class="tituloCardBody">React</h4>
+                                <h4 class="skill jsTag">Javascript</h4>
+                                <h4 class="skill reactTag">React</h4>
                             </div>
                             
-                            <h2>Steve Jobs</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam debitis ullam voluptates fugiat nemo, excepturi, distinctio hic quisquam voluptatem quidem sequi! Odio odit aliquam, non molestias repudiandae fugit repellat at!</p>
+                            <h2 class = "oradorName">Steve Jobs</h2>
+                            <p>Steve Jobs fue un visionario empresario y cofundador de Apple Inc., conocido por su liderazgo 
+                                en la revolución de la computación personal con productos icónicos como el iPhone, el iPad y 
+                                el Mac. Nacido en 1955 en San Francisco, California, Jobs también fue un pionero en la 
+                                animación por computadora con Pixar y dejó un legado duradero en la tecnología y el diseño, 
+                                siendo reconocido como uno de los genios creativos más influyentes del siglo XXI. Falleció 
+                                en 2011, dejando una profunda huella en la industria tecnológica y en la cultura popular.</p>
                         </div>
                        
                     </div>
@@ -73,23 +83,33 @@
                         <img src="./assets/img/bill.jpg" alt="Bill Gates">
                         <div class="cardBody">
                             <div class="cardTags">
-                                <h4 class="tituloCardBody">Javascript</h4>
-                                <h4 class="tituloCardBody">React</h4>
+                                <h4 class="skill jsTag">Javascript</h4>
+                                <h4 class="skill reactTag">React</h4>
                             </div>
-                            <h2>Bill Gates</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam debitis ullam voluptates fugiat nemo, excepturi, distinctio hic quisquam voluptatem quidem sequi! Odio odit aliquam, non molestias repudiandae fugit repellat at!</p>
+                            <h2 class = "oradorName">Bill Gates</h2>
+                            <p>Bill Gates es un empresario y "filántropo" estadounidense, cofundador de Microsoft, una de las 
+                                mayores empresas de software del mundo. Nacido en 1955 en Seattle, Washington, Gates revolucionó 
+                                la industria de la tecnología con su visión y liderazgo en el desarrollo de software como el 
+                                sistema operativo MS-DOS y Windows. Se convirtió en uno de los hombres más ricos del mundo, y 
+                                junto con su esposa Melinda, ha donado generosamente a través de su fundación "filantrópica" para 
+                                abordar problemas globales de salud y educación.</p>
                         </div>
                       
                     </div>
                     <div class="card">
-                        <img src="./assets/img/ada.jpeg" alt="Ada">
+                        <img src="./assets/img/ada.jpg" alt="Ada">
                         <div class="cardBody">
                             <div class="cardTags">
-                                <h4 class="tituloCardBody">Javascript</h4>
-                                <h4 class="tituloCardBody">React</h4>
+                                <h4 class="skill negociosTag">Negocios</h4>
+                                <h4 class="skill startupsTag">Startups</h4>
                             </div>
-                            <h2>Ada Lovelace</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam debitis ullam voluptates fugiat nemo, excepturi, distinctio hic quisquam voluptatem quidem sequi! Odio odit aliquam, non molestias repudiandae fugit repellat at!</p>
+                            <h2 class = "oradorName">Ada Lovelace</h2>
+                            <p>Ada Lovelace fue una matemática y escritora británica del siglo XIX. Por su trabajo en la programación de 
+                                la Máquina Analítica de Babbage, es considerada la primera programadora de la historia. Nacida en 1815 
+                                en Londres, su enfoque visionario sobre el potencial de las máquinas la convirtió en una pionera en el 
+                                campo de la informática. Sus  notas sobre algoritmos y programas de computadora
+                                siguen siendo relevantes en  la actualidad. Ada Lovelace dejó una huella perdurable 
+                                en la historia de la tecnología y la informática.</p>
                         </div>
                         
                     </div>
@@ -100,14 +120,17 @@
 
                 </div>
                 <div class="right">
-                    <h2>Bs.As - Octubre</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quibusdam ipsam aspernatur, at veritatis exercitationem sint fugiat culpa aliquam quos accusantium dignissimos recusandae, fugit minima quidem veniam, nulla odio consequatur!</p>
-                    <a href="">Conocé Más</a>
+                    <h2>Bs As - Octubre</h2>
+                    <p class="descripciónEvento">Este mes de Octubre se desarrollará en la ciudad de Buenos Aires una histórica conferencia en la que participaran 
+                        referentes de la tecnologia informática. Como todos sabemos, el vigor y la vigencia de estas celebridades es de tal 
+                        magnitud que ni su propia condición vital les impedirá deleitarnos con su conocimineto, experiencias y generosidad.</p>
+                    <a class="btn verMas" href="">Conocé Más</a>
                 </div>
             </section>
             <section id="convierteteEnOrador" class="formularioOrador">
-                <h2><span>CONVIERTETE EN UN </span> <br> ORADOR</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae sunt!</p>
+                <p  class = "tituloSmall">CONVIERTETE EN UN</p>
+                <h1 class = "tituloLarge">ORADOR</h1>
+                <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
                 <form action="" autocomplete="on">
                     <div>
                         <input  class="inputNA" type="text" placeholder="Nombre" required>
@@ -116,7 +139,7 @@
                     <div>
                         <textarea class="textArea" name="" id="" cols="44" rows="6" placeholder="Sobre que quieres hablar?" required></textarea>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <p class="advice">Recuerda incluir un título para tu charla</p>
                     <div>
                         <input type="submit" value="Enviar" class="formSubmit">
                     </div>
@@ -126,15 +149,17 @@
      
        <footer class="footer">
             <div class="contenedorFooter">
-                <a href="">link</a>
-                <a href="">link</a>
-                <a href="">link</a>
-                <a href="">link</a>
-                <a href="">link</a>
-                <a href=""><i class="fa-brands fa-instagram iconInstagram"></i></a>
-                <a href=""><img class="wsp" src="./assets/img/whatsapp.png" alt="what"></a>
-               
+                <a href="">Preguntas Frecuentes</a>
+                <a href="">Contactanos</a>
+                <a href="">Prensa</a>
+                <a href="">Conferencias</a>
+                <a href="">Términos y condiciones</a>
+                <a href="">Privacidad</a>
+                <a href="">Estudiantes</a>
+                  
             </div>
+                <a href=""><img class="inst" src="./assets/img/Instagram.png"></i></a>
+                <a href=""><img class="wsp" src="./assets/img/whatsapp.png" alt="what"></a>
        </footer>
 
     </body>

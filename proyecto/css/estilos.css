@@ -182,7 +182,6 @@ body{
 }
 .inputNA{
     width: 48%;
-
     height: 2rem;
     margin-bottom: 1rem;
     border-radius: 5px;
@@ -254,7 +253,7 @@ body{
         width: 100%;
     }
     .laConferencia{
-        height: 70%;
+
         background:url("../assets/img/madero.jpg");
         background-size: cover;
         background-position: center;
